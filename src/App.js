@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import MarqueeSection from "./components/MarqueeSection";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
+import WhyChooseUs from "./components/WhyChooseUs";
 import CustomTech from "./components/CustomTech";
 import FAQs from "./components/FAQs";
 import ContactUs from "./components/ContactUs";
@@ -10,7 +11,6 @@ import Explore from "./components/Explore";
 import HeroSec from "./components/HeroSec";
 
 function App() {
-  
   return (
     <>
       <Header />
@@ -18,15 +18,14 @@ function App() {
       <HeroSec />
       <MarqueeSection />
       <Services />
+      <WhyChooseUs />
       <Explore />
-      <AboutUs/>
-      <CustomTech/> 
-      <FAQs/>
-      <ContactUs/>
-    
+      <AboutUs />
+      <CustomTech />
+      <FAQs />
+      <ContactUs />
 
-    <Footer />
-
+      <Footer />
     </>
   );
 }

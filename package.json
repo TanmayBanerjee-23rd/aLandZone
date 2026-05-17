@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "flowbite-react": "^0.7.2",
+    "motion": "^12.38.0",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-countup": "^6.5.0",
@@ -18,8 +19,8 @@
     "react-router-dom": "^6.22.2",
     "react-scripts": "5.0.1",
     "swiper": "^11.0.7",
-    "web-vitals": "^2.1.4",
-    "tailwind-clamps-line": "^0.4.6"
+    "tailwind-clamps-line": "^0.4.6",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
