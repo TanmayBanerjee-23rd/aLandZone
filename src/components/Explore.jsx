@@ -115,7 +115,6 @@ const Explore = () => {
                           : "text-slate-400 hover:text-white"
                       }`}
                     >
-                      {/* Background fill on Apply */}
                       {isActive && (
                         <motion.div
                           layoutId="activeFilterBg"
@@ -123,7 +122,6 @@ const Explore = () => {
                         />
                       )}
 
-                      {/* Border on Select */}
                       {isSelected && (
                         <motion.div
                           layoutId="selectedFilterBorder"

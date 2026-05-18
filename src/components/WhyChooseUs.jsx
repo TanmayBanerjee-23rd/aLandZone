@@ -90,17 +90,14 @@ const WhyChooseUs = () => {
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 lg:py-32">
-        {/* Header Section */}
         <div className="flex flex-col items-center justify-center text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             className="group relative mb-8 flex items-center justify-center overflow-hidden rounded-2xl p-[1px]"
           >
-            {/* Gradient Border Mix */}
             <div className="absolute inset-0 bg-gradient-to-r from-purple-800/40 via-cyan-400/40 to-purple-500/40" />
 
-            {/* Shining Star Revolving */}
             <motion.div
               animate={{ rotate: 360 }}
               transition={{
@@ -146,14 +143,12 @@ const WhyChooseUs = () => {
           />
         </div>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, idx) => (
             <FeatureCard key={"feature-" + idx} {...feature} index={idx} />
           ))}
         </div>
 
-        {/* Footer CTA Section */}
         <div className="mt-24 flex flex-col items-center justify-center text-center">
           <motion.button
             initial={{ opacity: 0, y: 20 }}
